@@ -1,0 +1,105 @@
+/*Estilização do BODY do site*/
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+}
+.logo {
+    width: 15%;
+    margin: 25px 0 0 280px;
+}
+/*Estilização do HEADER do site*/
+header {
+    background-color: rgb(102,0,102);
+}
+/*Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+    padding-bottom: 50px;
+}
+/*Estilização do MENU do site*/
+nav {
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+nav li{
+    display: inline;
+    color: white;
+    font-size: 28;
+    margin-right: 15px;
+}
+.banner {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 65%;
+    margin-left: 20%;
+}
+/*Imagem do sobre nós*/
+.img_sobrenos {
+    width: 15%;
+    float: left;
+    margin-right: 20px;
+}
+.titulo_sobrenos {
+    clear: left;
+    text-align: center;
+}
+.texto_diferente {
+    color: navy;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*Estilização da sessão NOSSO ESTABELECIMENTO*/
+.mapaGeral {
+    background: linear-gradient(#FFFFFF, #C9C1E5);
+}
+.mapaGeral p{
+    text-align: center;
+}
+.mapa{
+    margin-left: 20%;
+}
+/*Estilização da sessão NOSSOS PRODUTOS*/
+.nossosprodutos{
+	padding: 3em 0;
+	background: #ffbb00
+}
+.nossosprodutos_conteudo {
+	width: 640px;
+	margin: 0 auto;
+
+}
+.nossosprodutos_lista {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.nossosprodutos_itens {
+	line-height: 1.5;
+
+}
+.nossosprodutos_itens:before{
+	content: "★";
+}
+.nossosprodutos_itens:first-child {
+	font-weight: bold;
+}
+.img_beneficios {
+	width: 50%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px 0px #000000;
+}
+.img_beneficios:hover {
+	opacity: 0.7;
+}
