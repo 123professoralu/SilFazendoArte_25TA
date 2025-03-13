@@ -61,7 +61,7 @@ nav li{
 }
 /*Estilização da sessão NOSSO ESTABELECIMENTO*/
 .mapaGeral {
-    background: linear-gradient(#FFFFFF, #C9C1E5);
+    background: linear-gradient(#FFFFFF, #dad4f1);
 }
 .mapaGeral p{
     text-align: center;
@@ -71,35 +71,35 @@ nav li{
 }
 /*Estilização da sessão NOSSOS PRODUTOS*/
 .nossosprodutos{
-	padding: 3em 0;
-	background: linear-gradient(#C9C1E5, rgb(102,0,102));
+    padding: 2%;
+    background: linear-gradient(#dad4f1, rgb(180, 111, 180));
 }
-.nossosprodutos_conteudo {
-	width: 640px;
-	margin: 0 auto;
-
+.div_nossosprodutos{
+    width: 70%;
+    margin-left: 30%;
 }
-.nossosprodutos_lista {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
+.lista_nossosprodutos{
+    width: 30%;
+    display: inline-block;
+    vertical-align: "top";
+    list-style: none;
 }
-.nossosprodutos_itens {
-	line-height: 1.5;
-
+.lista_nossosprodutos li{
+    line-height: 2;
 }
-.nossosprodutos_itens:before{
-	content: "★";
+.lista_nossosprodutos li:before{
+    content: "★ ";
 }
-.nossosprodutos_itens:first-child {
-	font-weight: bold;
+.img_nossosprodutos{
+    width: 15%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    opacity: 1;
+    transition: 400ms;
 }
-.img_produtos {
-	width: 30%;
-	opacity: 1;
-	transition: 400ms;
-	box-shadow: 10px 10px 5px 0px #000000;
+.img_nossosprodutos:hover{
+    opacity: 0.5;
 }
-.img_produtos:hover {
-	opacity: 0.7;
+.video{
+    padding: 5% 0 0 18%;
 }
