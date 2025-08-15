@@ -1,0 +1,166 @@
+/*Estilização do BODY da página*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+}
+/*Estização do HEADER da página*/
+header{
+    background-color: rgb(78, 8, 116);
+    padding: 10px 0 20px 200px;
+}
+
+main {
+    background: linear-gradient(#FFFFFF, #dad4f1);
+}
+
+.logo {
+    width: 10%;
+}
+/*Estilização do MENU do site*/
+nav {
+    color: white;
+    font-size: 26;
+    right: 3%;
+    top: -5%;
+    position: absolute;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilização da DIV do header */
+.divHeader {
+    position: relative;
+}
+
+/*Título*/
+.produtos-titulo{
+	font-size: 40px;
+	font-weight: bold;
+	color:  rgb(78, 8, 116);
+    font-family: cursive;
+    list-style: none;
+}
+.produtos-item:before{
+	content: "🐈";
+}
+
+/*Texto dos Produtos*/
+.texto-produtos{
+    padding-left: 5%;
+}
+
+/* Container dos cards */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 0 20px 10%;
+    width: 80%;
+}
+
+/* Estilização do card */
+.card {
+    background: #fff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/* Imagens */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* Título */
+.card h2 {
+    margin: 10px 0;
+}
+/* Preço */
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px 0;
+}
+
+/*Footer*/
+footer{
+	background: url("../img/fundo_rodape.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Define a transparência */
+    background-blend-mode: darken; /* Mistura as cores */
+	padding: 30px 10px 10px 0;
+}
+footer p{
+    font-weight: bold;
+    color: white;
+    /* display: inline-block; */
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+footer i{
+    color: white;
+}
+.logo_footer{
+	width: 15%;
+    padding-left: 85%;
+}
+
+/*Estilização da POP de Detalhes*/
+.pop{
+    margin: 0;
+}
+.pop img {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.pop h1{
+    font-size: 40px;
+	font-weight: bold;
+    text-align: center;
+	color:  rgb(78, 8, 116);
+}
+.pop p{
+    padding: 2% 0 7% 7% ;
+    margin: 0;
+    white-space: pre-line; 
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.slider button{
+    background-color: purple;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+}

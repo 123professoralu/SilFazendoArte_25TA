@@ -1,63 +1,60 @@
-/*Estilização do BODY do site*/
-body {
+/*Estilização do BODY da página*/
+body{
     margin: 0;
     border: 0;
     font-family: 'Tahoma', 'Arial';
 }
+/*Estização do HEADER da página*/
+header{
+    background-color: rgb(78, 8, 116);
+    padding: 20px 0 40px 200px;
+}
+
 .logo {
-    width: 15%;
-    margin: 25px 0 0 280px;
-}
-/*Estilização do HEADER do site*/
-header {
-    background-color: rgb(102,0,102);
-}
-/*Estilização da DIV do header*/
-.divHeader {
-    position: relative;
-    margin: auto;
-    padding-bottom: 50px;
+    width: 12%;
 }
 /*Estilização do MENU do site*/
 nav {
-    position: absolute;
-    top: 70px;
-    right: 200px;
-}
-nav li{
-    display: inline;
     color: white;
     font-size: 28;
-    margin-right: 15px;
+    right: 2%;
+    top: 10%;
+    position: absolute;
 }
-.banner {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Estilização da DIV do header */
+.divHeader {
+    position: relative;
 }
 
 /*Estilização da sessão SOBRE NÓS*/
 .sobre_nos {
     margin: 0;
     text-align: justify;
-    width: 65%;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 15%;
 }
-/*Imagem do sobre nós*/
 .img_sobrenos {
     width: 15%;
     float: left;
     margin-right: 20px;
 }
 .titulo_sobrenos {
-    clear: left;
     text-align: center;
-}
-.texto_diferente {
-    color: navy;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
+    clear: left;
 }
 /*Estilização da sessão NOSSO ESTABELECIMENTO*/
 .mapaGeral {
@@ -66,13 +63,13 @@ nav li{
 .mapaGeral p{
     text-align: center;
 }
-.mapa{
+.mapa {
     margin-left: 20%;
 }
 /*Estilização da sessão NOSSOS PRODUTOS*/
 .nossosprodutos{
     padding: 2%;
-    background: linear-gradient(#dad4f1, rgb(180, 111, 180));
+    background: linear-gradient(#dad4f1, rgb(78, 8, 116));
 }
 .div_nossosprodutos{
     width: 70%;
@@ -101,5 +98,57 @@ nav li{
     opacity: 0.5;
 }
 .video{
-    padding: 5% 0 0 18%;
+    padding: 3% 0 0 20%;
+}
+/*Footer*/
+footer{
+	background: url("../img/fundo_rodape.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+	padding: 30px 10px 10px 0;
+}
+footer p{
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+footer i{
+    color: white;
+}
+.logo_footer{
+	width: 15%;
+    padding-left: 85%;
+}
+
+/*Estilização do Slider*/
+.carrossel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.carrossel img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
+.carrossel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(119, 6, 249, 0.5);
+    color: #fff;
+    padding: 10px;
+    cursor: grab;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
 }
