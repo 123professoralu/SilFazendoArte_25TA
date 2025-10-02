@@ -135,6 +135,22 @@ button{
     margin: 10px 0px;
 }
 
+/*Estilização da exclusão da encomenda*/
+.fadeOut{
+    opacity: 0;
+    transition: 1s;
+}
+
+/*Estilização do campo de Busca*/
+#buscar{
+    width: 19.5%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.invisivel{
+    display: none;
+}
+
 /*Footer*/
 footer{
 	background: url("../img/fundo_rodape.png");
